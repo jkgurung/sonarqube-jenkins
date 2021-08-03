@@ -20,4 +20,11 @@ class MathServiceTest {
 
         assertEquals(15, results);
     }
+
+    @Test
+    public void subtractNumbers() {
+        int results = mathService.subtract(10, 3);
+
+        assertEquals(7, results);
+    }
 }
