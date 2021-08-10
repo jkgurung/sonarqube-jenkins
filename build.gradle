@@ -26,8 +26,9 @@ test {
 sonarqube {
     properties {
         property 'sonar.host.url', 'http://localhost:9000'
-        property 'sonar.login', 'admin'
-        property 'sonar.projectName', 'good-code'
+        property 'sonar.login', 'jenkins'
+        property 'sonar.projectKey=good-code'
+//        property 'sonar.projectName', 'good-code'
         property 'sonar.language', 'java'
     }
 }
