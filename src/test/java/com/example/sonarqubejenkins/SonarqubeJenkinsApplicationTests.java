@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SonarqubeJenkinsApplicationTests {
 
     @Test
-    public void main() {
+     void main() {
         SonarqubeJenkinsApplication.main(new String[] {});
     }
 }

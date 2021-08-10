@@ -15,14 +15,14 @@ class MathServiceTest {
     }
 
     @Test
-    public void multipleNumbers() {
+     void multipleNumbers() {
         int results = mathService.multiply(3, 5);
 
         assertEquals(15, results);
     }
 
     @Test
-    public void subtractNumbers() {
+     void subtractNumbers() {
         int results = mathService.subtract(10, 3);
 
         assertEquals(7, results);

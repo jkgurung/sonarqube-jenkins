@@ -3,8 +3,8 @@ package com.example.sonarqubejenkins.service;
 public class CommonJavaMistakes {
 
     public void goodExampleGC() {
-        StringBuilder oneMillionHelloSB = new StringBuilder();
-        for (int i = 0; i < 1000000; i++) {
+        var oneMillionHelloSB = new StringBuilder();
+        for (var i = 0; i < 1000000; i++) {
             oneMillionHelloSB.append("Hello!");
         }
 
